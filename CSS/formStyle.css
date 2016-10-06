@@ -1,0 +1,74 @@
+label{
+    display: block;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+#contactFormHeader{
+    font-size: 200%;
+    border-bottom: 1px solid black;
+    border-height: 10px;
+    width: 200px;
+    display: block;
+    text-align: center;
+    padding: 2px;
+    margin:0 auto;
+    letter-spacing: 2px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
+
+}
+
+body{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+form{
+    width:400px;
+    height: 30px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    padding: 10px;
+    margin: top: 5px;
+    font-size: 150%;
+}
+form.error{
+    color: #ff0000;
+}
+
+button{
+    margin: 0 auto;
+    margin-top: 550px;
+    text-align: center;
+    display: block;
+    border: 2px solid #555555;
+    background-color: #ffffff;
+    color: #555555;
+    font-size: 20px;
+    padding: 14px 40px;
+    border-radius: 12px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+button:hover{
+    background-color: #555555;
+    color: #ffffff;
+}
+
+input, textarea{
+    width: 150px;
+    height: 15px;
+    padding: 5px 10px;
+    border: 2px solid #004080;
+    border-radius: 4px;
+}
+
+textarea{
+    width: 500px;
+    height: 250px;
+    resize: none;
+}
