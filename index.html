@@ -9,7 +9,7 @@
     <header>
         <p id = "contactFormHeader">Contact me</p>
     </header>
-    <section>
+    <section id = "hide">
         <form name = "myForm" action = "" onsubmit = "return validateForm()" method = "post" id = "formBody">
             <label>Name</label>
                 <input type = "Name" name = "Name">
@@ -20,8 +20,9 @@
             <label>Message</label>
                 <textarea type = "Message" name = "Message"></textarea>
         </form>
-        <button type = "submit" form = "formBody" value = "Submit">Send</button>
+        <button type = "submit" form = "formBody" onclick = "" value = "Submit">Send</button>
     </section>
+    <section id = "show">Thank you!</section>
     <footer id = "formFoot">
         <script src="JS/submitListener.js" type="text/javascript"></script>
     </footer>

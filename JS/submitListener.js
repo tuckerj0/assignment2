@@ -20,7 +20,10 @@ function validateForm(){
         alert("Message is empty");
         return false;
     }
-    alert("Success!");
-    return true;
-
+    var form = document.getElementById("hide");
+    form.style.display = 'none';
+    var thanks = document.getElementById("show");
+    thanks.style.display = 'block';
+    return false;
 }
+

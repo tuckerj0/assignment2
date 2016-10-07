@@ -72,3 +72,21 @@ textarea{
     height: 250px;
     resize: none;
 }
+#thankyou{
+    font-size:600%;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+#hide{
+
+}
+#show{
+    display: none;
+    font-size:600%;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
